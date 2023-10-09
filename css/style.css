@@ -461,7 +461,7 @@ body{
         /* 447 ÷ 721 */
     }
     .wrap main .wrap_item .profile .inner{
-        padding: 55px 7.782101167315175%;
+        padding: 55px 3.803131991051454%;
     }
     .wrap main .wrap_item .profile .inner .left-box{
         display: block;
@@ -608,6 +608,10 @@ body{
     .wrap main .wrap_item .skill-box > ul .skill-list{
         width: calc(100%/3);
         margin-top: 10px;
+    }
+
+    .wrap main .wrap_item .skill-box > ul .skill-list .skill-image{
+        width: 65%;
     }
 
     .wrap main .wrap_item .skill-box > ul .skill-list ul .skill-text{
