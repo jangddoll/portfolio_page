@@ -137,12 +137,15 @@ body{
     display: flex;
 }
 .wrap main .wrap_item .skill-box > ul{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .wrap main .wrap_item .skill-box .skill-list{
-    width: calc(100% / 7);
+    width: calc(100% / 8);
 }
 .wrap main .wrap_item .skill-box .skill-list ul .skill-image{
     width: 80%;
@@ -512,6 +515,7 @@ body{
     }
     .wrap main .wrap_item .skill-box > ul .skill-list{
         width: calc(100%/5);
+        padding: 0;
     }
     .wrap main .wrap_item .skill-box > ul .skill-list .skill-image{
         display: block;
